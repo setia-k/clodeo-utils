@@ -4,10 +4,12 @@
   "description": "Clodeo utilities packages",
   "main": "lib/main.js",
   "author": "setiakagung15@gmail",
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
-    "build": "webpack --config ./webpack.config.js --mode=production",
-    "prepare": "npm run build",
+    "clean": "rm lib",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "prepare": "npm run build-prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
