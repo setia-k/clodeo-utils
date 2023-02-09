@@ -23,7 +23,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "test": "jest --config jestconfig.json"
