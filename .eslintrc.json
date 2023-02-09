@@ -1,14 +1,15 @@
 {
   "env": {
-    "es6": true,
+    "es2021": true,
+    "amd": true,
     "node": true
   },
-  "extends": "airbnb-base",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "overrides": [],
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
-  },
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
