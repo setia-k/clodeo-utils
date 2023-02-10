@@ -11,9 +11,7 @@ describe('kebabCase', () => {
   // ignore lint warning as it's intentional
   it('should return empty string for falsy values', () => {
     expect(kebabCase('')).toBe('');
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     expect(kebabCase(null as any)).toBe('');
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     expect(kebabCase(undefined as any)).toBe('');
   });
 });

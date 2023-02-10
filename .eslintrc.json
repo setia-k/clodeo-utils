@@ -23,6 +23,7 @@
     "/lib"
   ],
   "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
     "no-multi-spaces": "error",
     "quotes": [
       "error",
