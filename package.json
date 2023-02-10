@@ -1,5 +1,5 @@
 {
-  "name": "clodeo-utils",
+  "name": "@clodeo/utils",
   "version": "1.0.0",
   "description": "Clodeo utilities library",
   "main": "lib/index.js",
