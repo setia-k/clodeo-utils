@@ -43,5 +43,4 @@ function parseQuery(subject: string, options: parseQueryOptions = defaultParseQu
   return results;
 }
 
-//TODO: Add test cases
 export default parseQuery;
