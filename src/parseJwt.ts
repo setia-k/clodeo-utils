@@ -1,6 +1,7 @@
 //TODO: atob is deprecated, please update
 /**
- * Parse JWT Token
+ * Can't be used to generally parse JWT token, only for acount data in app.kloola.id
+ * Parse account JWT Token
  * @param data {any} The data to parse
  * @returns {object} The parsed data
  */

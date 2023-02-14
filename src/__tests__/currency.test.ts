@@ -1,4 +1,5 @@
 import currency from '../currency';
+
 describe('currency function', () => {
 
   it('Test case for positive number with symbol Rp. ', () => {

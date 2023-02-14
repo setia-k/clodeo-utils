@@ -12,11 +12,12 @@ interface passwordFlag {
  * @returns {object} object with boolean flags for each requirement, true if fulfilled
  */
 function passwordValidation(password: string): passwordFlag {
+  const pass = password ?? '';
   const flag: passwordFlag = {
-    uppercase: /[A-Z]/.test(password),
-    lowercase: /[a-z]/.test(password),
-    number: /\d+/g.test(password),
-    character: /[#?!@$%^&*-]+/.test(password),
+    uppercase: /[A-Z]/.test(pass),
+    lowercase: /[a-z]/.test(pass),
+    number: /\d+/g.test(pass),
+    character: /[#?!@$%^&*-]+/.test(pass),
   };
   return flag;
 }

@@ -9,6 +9,8 @@
  * "an hour ago"
  */
 function fromNow(date: string): string {
+  if (!date) return '';
+
   const seconds = Math.floor(
     (new Date().getTime() - new Date(date).getTime()) / 1000
   );

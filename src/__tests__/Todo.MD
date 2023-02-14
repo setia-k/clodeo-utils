@@ -10,6 +10,6 @@ in their respective test file and are skipped when the test was ran.
 ## Functions that might be untestable
 - `downloadFile`, needs a browser to test.
 - `getIndonesianTimezone`, while testable, it will always return the same result since it uses system time.
-- `parseJwt`, needs a browser to test.
+- `parseJwt`, too specific to test. usable only in app.kloola.id
 - `parseQuery`, needs a browser to test.
 - `scrollTo`, needs a browser to test.
