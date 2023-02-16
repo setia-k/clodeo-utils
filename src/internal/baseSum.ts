@@ -1,9 +1,8 @@
-//TODO: Add docs
 /**
  * INTERNAL
  * Used by sumBy
  */
-export function baseSum(array: any, iteratee: (arg0: any) => any) {
+export function baseSum(array: any, iteratee: (arg0: any) => any): number {
   let result;
 
   for (const value of array) {
