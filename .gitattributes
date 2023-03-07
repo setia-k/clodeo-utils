@@ -1,0 +1,7 @@
+* text=auto
+
+# Force .sh script eol to LF
+*.sh text eol=lf
+
+# Force .bat script eol to CRLF
+*.bat text eol=crlf
