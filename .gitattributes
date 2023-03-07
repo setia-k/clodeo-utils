@@ -1,7 +1,9 @@
+# https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
+# Let git decides how to handle the rest automatically
 * text=auto
 
-# Force .sh script eol to LF
+# Linux and macOS files
 *.sh text eol=lf
 
-# Force .bat script eol to CRLF
+# Windows files
 *.bat text eol=crlf
