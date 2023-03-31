@@ -2,6 +2,15 @@
 1. Clone repo
 2. `npm i` or `npm install
 
+## How to publish
+1. commit and push all changes
+2. merge to main
+3. login to npm `npm login`
+4. update version number
+   - use `npm version patch` or `npm version minor` or `npm version major`
+   - update manually in `package.json`
+5. `npm publish`
+
 ## Helper Script
 ### - functionAdd
 Create a new template .ts file in the `src/` and .test.ts file in the `src/__tests__`

@@ -1,8 +1,11 @@
+# The purpose of this file is to tell git what eol style to use for each file.
+# While also preventing git from converting line endings sensitive file on checkout
 # https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
-# Let git decides how to handle the rest automatically
+
+# Let git decide automatically what eol style to use for each file
 * text=auto
 
-# Linux and macOS files
+# Linux files
 *.sh text eol=lf
 
 # Windows files
