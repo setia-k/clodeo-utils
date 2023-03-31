@@ -1,10 +1,9 @@
 /**
- *
+ * @deprecated use `toCurrency` which used Intl.NumberFormat instead
  * @param symbol {string} - Currency symbol
  * @param number {number | string} - Number to be formatted
  * @param lang {string} only used when value is 'en' to switch comma and dot usage
  * @returns {string} Formatted currency
- * @proposal use or make function based on Intl.NumberFormat
  */
 function currency(symbol: string, number: number | string, lang?: string) {
   let parsedNumber: number;
