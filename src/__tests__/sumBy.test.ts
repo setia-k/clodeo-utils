@@ -18,7 +18,7 @@ describe('sumBy', () => {
     });
   });
 
-  describe('return 0 for valsy value or none existing key', () => {
+  describe('return 0 for falsy value or none existing key', () => {
     it('Should return 0 for falsy value', () => {
       const expected = 0;
       expect(sumBy(null, (o: any) => o.n)).toBe(expected);
